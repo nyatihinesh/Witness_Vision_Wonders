@@ -1,6 +1,6 @@
 # Witness Vision Wonders (WvW) - Interactive Computer Vision Playground
 
-![WvW Banner](https://via.placeholder.com/1200x300.png?text=Witness+Vision+Wonders)  
+!(https://www.canva.com/design/DAGjqOAoNUI/Zd87p35Tw_ITTCpeuGeu1w/edit?utm_content=DAGjqOAoNUI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 *An interactive platform blending computer vision, Python, and creativity to deliver games and tools controlled by hand gestures.*
 
 ---
