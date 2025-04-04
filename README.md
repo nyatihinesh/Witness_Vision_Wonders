@@ -7,7 +7,7 @@
 
 ## 🚀 Project Overview
 
-Welcome to **Witness Vision Wonders (WvW)**, a multi-functional application I built as a high school student (11th grade) passionate about computer vision and Python. This project integrates real-time hand tracking with OpenCV, GUI development with Tkinter, and hardware interaction via Arduino, showcasing my ability to create engaging, user-centric tech solutions. From gesture-controlled Ping-Pong to a virtual painter and educational quizzes, WvW is a testament to my skills in coding, problem-solving, and innovation.
+Welcome to **Witness Vision Wonders (WvW)**, a multi-functional application I built as a secondary school student passionate about computer vision and Python. This project integrates real-time hand tracking with OpenCV, Graphical User Interface (GUI) development with Tkinter, showcasing my ability to create engaging, user-centric tech solutions. From gesture-controlled Ping-Pong to a virtual painter and educational quizzes, WvW is a testament to my skills in coding, problem-solving, and innovation.
 
 ### Key Features
 - **Ping-Pong**: Play a classic game using your hands as paddles, powered by hand tracking.
@@ -17,18 +17,6 @@ Welcome to **Witness Vision Wonders (WvW)**, a multi-functional application I bu
 - **Press Game**: Test reflexes by pressing virtual buttons with hand proximity.
 - **Air Quiz**: Answer multiple-choice questions with hand gestures.
 - **Personalized Greeting**: Enter your name and get a time-based audio welcome.
-
----
-
-## 🎥 Demo Video
-
-See WvW in action! Check out this [YouTube demo](https://www.youtube.com/watch?v=your-video-link) (replace with your actual link after uploading).
-
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
-</div>
-
----
 
 ## 🛠️ Tech Stack
 
@@ -44,32 +32,51 @@ See WvW in action! Check out this [YouTube demo](https://www.youtube.com/watch?v
 | **NumPy**          | Mathematical computations        |
 | **CSV**            | Quiz data management             |
 
----
-
-## 📸 Screenshots
-
-| Feature            | Screenshot                       |
-|--------------------|----------------------------------|
-| Ping-Pong          | ![Ping-Pong](https://via.placeholder.com/300x200.png?text=Ping+Pong+Game) |
-| Virtual Painter    | ![Virtual Painter](https://via.placeholder.com/300x200.png?text=Virtual+Painter) |
-| Volume Control     | ![Volume Control](https://via.placeholder.com/300x200.png?text=Volume+Gesture) |
-| Air Quiz           | ![Air Quiz](https://via.placeholder.com/300x200.png?text=Air+Quiz) |
-
-*Note: Replace placeholder images with actual screenshots after capturing them.*
-
----
-
 ## ⚙️ Installation
 
 Follow these steps to run WvW on your machine:
 
 ### Prerequisites
-- Python 3.8+
-- Webcam (for hand tracking)
-- Speakers (for audio features)
+- **Operating System**: Windows (for `pycaw` volume control; adaptable for other OS with tweaks).
+- **Hardware**: Webcam (for hand tracking), speakers (for audio features).
+- **Python Version**: 3.7.9 
 
 ### Steps
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/nyatihinesh/Witness_Vision_Wonders.git
    cd Witness_Vision_Wonders
+2. **Install Libraries**
+   Run the commands above one-by-one in your terminal or command prompt to install all dependencies.
+
+   ```bash
+   pip install opencv-python
+   pip install cvzone
+   pip install mediapipe
+   pip install gtts
+   pip install pygame
+   pip install pycaw
+   pip install numpy
+3. **Run the Application**
+   Ensure your webcam is connected and speakers are on.
+   
+   Execute the main script:
+   ```bash
+   python WvW.py
+
+4. **Controls**
+General: Press q to exit most modules.
+
+Ping-Pong: Use r to restart after game over.
+
+Press Game: Use r to restart after time’s up.
+
+Follow on-screen prompts or hand gestures (e.g., thumb-index distance for volume).
+
+5. **Troubleshooting**
+Webcam Issues: Check cv.VideoCapture(0)—change to 1 if using an external camera.
+
+Audio Errors: Ensure speakers are active; pycaw works only on Windows.
+
+
+
