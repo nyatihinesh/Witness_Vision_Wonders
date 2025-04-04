@@ -1,6 +1,7 @@
 # Witness Vision Wonders (WvW) - Interactive Computer Vision Playground
 
-![image](https://github.com/user-attachments/assets/3d54fdc8-6db0-47eb-9304-df1a91b1a13c)
+![image](https://github.com/user-attachments/assets/50bea47c-7720-48c7-b07b-8ad1fb549c08)
+
 
 ---
 
