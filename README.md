@@ -1,4 +1,4 @@
-# Witness Vision Wonders (WvW) - Interactive Computer Vision Playground
+# Witness Vision Wonders (WvW) 
 
 ![image](https://github.com/user-attachments/assets/50bea47c-7720-48c7-b07b-8ad1fb549c08)
 
